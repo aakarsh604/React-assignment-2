@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+  align-items: center;
+  background: #24252a;
+  color: white;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  background-color: cyan;
+  border-radius: 25px;
+  padding: 10px 30px;
+}
